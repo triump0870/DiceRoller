@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		7DA1143E1D4023CC00610E10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1143D1D4023CC00610E10 /* AppDelegate.swift */; };
-		7DA114401D4023CC00610E10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1143F1D4023CC00610E10 /* ViewController.swift */; };
+		7DA114401D4023CC00610E10 /* RollDiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1143F1D4023CC00610E10 /* RollDiceViewController.swift */; };
 		7DA114431D4023CC00610E10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DA114411D4023CC00610E10 /* Main.storyboard */; };
 		7DA114451D4023CC00610E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DA114441D4023CC00610E10 /* Assets.xcassets */; };
 		7DA114481D4023CC00610E10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DA114461D4023CC00610E10 /* LaunchScreen.storyboard */; };
 		7DA114531D4023CC00610E10 /* DiceRollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA114521D4023CC00610E10 /* DiceRollerTests.swift */; };
 		7DA1145E1D4023CC00610E10 /* DiceRollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1145D1D4023CC00610E10 /* DiceRollerUITests.swift */; };
+		7DA1146C1D40241D00610E10 /* DiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA1146B1D40241D00610E10 /* DiceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		7DA1143A1D4023CC00610E10 /* DiceRoller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceRoller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA1143D1D4023CC00610E10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7DA1143F1D4023CC00610E10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7DA1143F1D4023CC00610E10 /* RollDiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollDiceViewController.swift; sourceTree = "<group>"; };
 		7DA114421D4023CC00610E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DA114441D4023CC00610E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DA114471D4023CC00610E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		7DA114591D4023CC00610E10 /* DiceRollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceRollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DA1145D1D4023CC00610E10 /* DiceRollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRollerUITests.swift; sourceTree = "<group>"; };
 		7DA1145F1D4023CC00610E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DA1146B1D40241D00610E10 /* DiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiceViewController.swift; path = ../DiceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +99,9 @@
 		7DA1143C1D4023CC00610E10 /* DiceRoller */ = {
 			isa = PBXGroup;
 			children = (
+				7DA1146B1D40241D00610E10 /* DiceViewController.swift */,
 				7DA1143D1D4023CC00610E10 /* AppDelegate.swift */,
-				7DA1143F1D4023CC00610E10 /* ViewController.swift */,
+				7DA1143F1D4023CC00610E10 /* RollDiceViewController.swift */,
 				7DA114411D4023CC00610E10 /* Main.storyboard */,
 				7DA114441D4023CC00610E10 /* Assets.xcassets */,
 				7DA114461D4023CC00610E10 /* LaunchScreen.storyboard */,
@@ -265,7 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DA114401D4023CC00610E10 /* ViewController.swift in Sources */,
+				7DA114401D4023CC00610E10 /* RollDiceViewController.swift in Sources */,
+				7DA1146C1D40241D00610E10 /* DiceViewController.swift in Sources */,
 				7DA1143E1D4023CC00610E10 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

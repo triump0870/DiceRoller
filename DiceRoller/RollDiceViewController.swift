@@ -19,6 +19,17 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    func randomNumber() -> Int{
+        let num = 1 + arc4random()%6
+        return Int(num)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: AnyObject?) {
+        let controller = segue.destinationViewController as! DiceViewController
+        controller.firstValue = self.randomNumber()
+        controller.secondValue = self.randomNumber()
+        
+    }
 
 
 }
