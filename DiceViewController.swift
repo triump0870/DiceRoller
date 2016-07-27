@@ -45,6 +45,7 @@ class DiceViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        // View will come
         UIView.animate(withDuration: 0.3){
             self.firstDie.alpha = 1
             self.secondDie.alpha = 1
